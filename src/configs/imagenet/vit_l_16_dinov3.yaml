@@ -1,0 +1,7 @@
+batch_size: 256
+data_path: '/project/dinov3/data'
+dataset_name: food
+device: cuda
+model_name: vit_l_16_dinov3
+num_classes: 101
+ckpt_path: null

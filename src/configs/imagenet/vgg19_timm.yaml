@@ -1,0 +1,6 @@
+batch_size: 512
+ckpt_path: ''
+data_path: '/project/data/external/ILSVRC/Data/CLS-LOC'
+dataset_name: imagenet
+device: cuda
+model_name: vgg19_timm
