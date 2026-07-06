@@ -1,6 +1,6 @@
 # SPICE: Simple Polysemantic feature Interpretation via Clustering-based Explanations
 
-Anonymous code release for the ICML 2026 Workshop on Mechanistic Interpretability submission.
+Code release for the ICML 2026 Workshop on Mechanistic Interpretability submission.
 
 SPICE is a generalizable framework for analyzing polysemanticity in deep
 vision models. It avoids architecture-dependent propagation rules,
@@ -60,12 +60,12 @@ The disentanglement procedure is implemented in
        --model vit_b_16_timm --layer blocks.11
    ```
 
-## Notes
-
-This codebase is shared anonymously for review only. A cleaned-up
-release with full documentation will follow upon paper acceptance.
-
-## License
-
-Anonymous review release — please do not redistribute. A permissive
-open-source license will accompany the camera-ready release.
+## Citation
+```
+@misc{lee2026spice,
+  title  = {SPICE: Simple Polysemantic Feature Interpretation via Clustering-based Explanations},
+  author = {Lee, Sehyun and Kwon, Dahee and Lee, Damin and Choi, Jaesik},
+  year   = {2026},
+  note   = {Accepted at the ICML 2026 Mechanistic Interpretability Workshop}
+}
+```
